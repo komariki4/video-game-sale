@@ -13,7 +13,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY best_xgb.joblib/ ./
-COPY .streamlit/ .streamlit/  
 COPY main.py .
 
 EXPOSE 8000
