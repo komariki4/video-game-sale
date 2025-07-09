@@ -17,4 +17,4 @@ COPY main.py .
 
 EXPOSE 8000
 
-CMD ["streamlit", "run", "main.py", "--server.address=0.0.0.0", "--server.port=8000"]
+CMD ["streamlit", "run", "main.py", "--server.address=0.0.0.0", "--server.port=8001"]
